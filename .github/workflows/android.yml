@@ -1,9 +1,7 @@
 name: Android CI
 
 on:
-  workflow_run:
-    workflows: ["Build"]
-    types: [requested]
+  workflow_dispatch:
 
 jobs:
   build:
